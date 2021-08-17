@@ -1,0 +1,113 @@
+:root{
+    --Azul:#183ee7;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*base*/
+
+body{
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+header .container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+
+    text-decoration: none;
+    color: var(--Azul);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+header nav{
+    
+    margin-right: 1%;
+    
+}
+header nav a{
+    text-decoration: none;
+    color:#AAA ;
+
+    margin-right: 20px;
+}
+header nav a:houver{
+    color: #fff;
+
+}
+/*filme principal*/
+
+.filme-principal {
+    font-size: 14px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) ,url('/img/capa01.png');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .sinopse{
+    margin-top: 25px;
+    margin-bottom: 100px;
+
+    font-size: 17px;
+}
+.titulo{
+    margin-top: 8%;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 20px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 50px;
+}
+.container{
+    margin-left: 20px;
+}
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-flime{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+    margin-top: 5px;
+}
